@@ -1,4 +1,4 @@
-##Linux.sh
+#Linux.sh
 Linux.sh checks to make sure it is a Linux OS and presents an error message if not. It also creates a TRASH directory for deleted files, and backs up old .nanorc files by renaming them to .bup_nanorc. The linux.sh file also attaches a command to souces the bashrc_custom configuration.
 ##Cleanup.sh
 cleanup.sh reveres the changes made by linux.sh by removing .nanorc files, deleting the TRASH directory and removing the command line from bashrc_custom
